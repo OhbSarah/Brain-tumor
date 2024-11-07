@@ -1,0 +1,20 @@
+projet:
+  nom: BRAIN_TUMOR
+  description: "Classification d'images de tumeurs cérébrales."
+  
+# Paramètres de prétraitement
+preprocessing:
+  target_size: [256, 256]        # Taille de redimensionnement des images
+  normalize: true                 # Normalisation entre 0 et 1
+  standardize: true               # Standardisation (moyenne de 0 et variance de 1)
+  grayscale: false                # Convertir en niveaux de gris (true pour utiliser un seul canal)
+
+# Paramètres d'augmentation
+augmentation:
+  rotation_range: 20              # Rotation aléatoire (en degrés)
+  width_shift_range: 0.1          # Décalage horizontal (en fraction de l'image)
+  height_shift_range: 0.1         # Décalage vertical (en fraction de l'image)
+  zoom_range: 0.2                 # Zoom aléatoire
+  horizontal_flip: true           # Retournement horizontal
+  vertical_flip: false            # Retournement vertical
+
