@@ -124,5 +124,4 @@ project-root/
 ```
 
 ---
-
-@Lilyakhelid @erivaninan
+Projet de groupe 
